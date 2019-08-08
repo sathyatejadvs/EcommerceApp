@@ -88,7 +88,7 @@
   font-weight: bold;
 }
 
-.about-image {
+.background-image {
   position :fixed;
   top: 50%;
   left: 50%;
@@ -96,9 +96,20 @@
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: -100;
-  -webkit-transform: translateX(-50%) translateY(-50%);
+  z-index: -400;
+  -webkit-transform: translateX(-30%) translateY(-70%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('application_image.jpg') no-repeat;
+  background: image-url('background-image.jpg') no-repeat;
   background-size: cover;
+}
+.first-slide-image {
+  background: image-url('summer.png') no-repeat;
+  min-height: 100%;
+  width: auto;
+  z-index: 1;
+  background-size: cover;
+
+}
+.slide1-font {
+  color: orangered;
 }
