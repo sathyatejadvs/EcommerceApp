@@ -31,11 +31,14 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'execjs'
-gem 'therubyracer', :platforms => :ruby
+gem 'mini_racer', :platforms => :ruby
 
 #Application specific gems
 gem 'mongoid'
 gem 'devise'
+gem 'bootstrap', '~> 4.3.1'
+gem 'jquery-rails'
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
