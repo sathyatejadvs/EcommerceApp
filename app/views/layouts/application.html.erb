@@ -14,19 +14,23 @@
   </head>
 
   <body>
-      <%= render 'layouts/shared/application_nav' %>
-      <div class="background-image">
-        <div class="container">
-          <div class="row ">
-            <div class="col-lg-12">
+       <div class="site-wrapper">
+
+        <div class="site-wrapper-inner">
+
+          <div class="cover-container">
+
+            <div class= 'background-image'> 
+
+            </div>
+              <%= render 'layouts/shared/application_nav' %>
               <%= yield %>
             </div>
+
           </div>
-          
+
         </div>
-      </div>
-
-
+        
   </body>
 </html>
 
