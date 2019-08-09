@@ -205,7 +205,7 @@ body {
 .cover {
   padding: 0 1.5rem;
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
@@ -244,4 +244,36 @@ body {
 .login-links {
   text-align: center;
   margin-top: 4rem;
+}
+
+
+/*
+* Footer
+*/
+
+.mastfoot {
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+* Affix and center
+*/
+
+@media (min-width: 40em) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+    color: white;
+  }
+}
+
+.footer-style {
+  margin-left: 12rem;
+  color: black;
 }
