@@ -1,2 +1,6 @@
-<%= render "layouts/shared/products_carousel"%>
-<%= render partial: 'product_item' %>
+<div class="album text-muted">
+  <div class="container">
+	<%= render "layouts/shared/products_carousel"%>
+	<%= render partial: 'product_item', collections: "@product_items"%>
+  </div>
+</div>
