@@ -1,4 +1,9 @@
 module ProductsHelper
+
+	def image_generator(height:,width:)
+		"http://placehold.it/#{height}x#{width}"
+	end
+
 	def product_image img, type
 		if img
 			img

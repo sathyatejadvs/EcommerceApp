@@ -40,6 +40,12 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 
+# Used to upload the files explicitly
+gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
+
+gem 'mini_magick', '~> 4.9', '>= 4.9.3'
+gem 'carrierwave-aws', '~> 1.3'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

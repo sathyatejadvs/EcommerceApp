@@ -1,6 +1,10 @@
 <div class="album text-muted">
   <div class="container">
 	<%= render "layouts/shared/products_carousel"%>
-	<%= render partial: 'product_item', collections: "@product_items"%>
+
+	<%= render partial: 'product', collection: @products %>
+ 	<p class= "center"><%= link_to 'Create New Product', new_product_path, class: 'btn btn-primary' %></p>
+
   </div>
 </div>
+
