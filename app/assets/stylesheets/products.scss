@@ -1,1 +1,85 @@
 @import 'bootstrap';
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+  carousel-item: image-url('carousel1.png') no-repeat;
+    carousel-item: image-url('carousel2.png') no-repeat;
+  carousel-item: image-url('carousel3.png') no-repeat;
+
+}
+/*Navigation styles */
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Padding for spacing */
+.inner {
+  padding: 1rem;
+}
+
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+@media (min-width: 992px) {
+ .col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+ }
+}
+
+/*
+* Cover
+*/
+
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: bold;
+}
+
+.slide1-font {
+  color: orangered;
+}
+
