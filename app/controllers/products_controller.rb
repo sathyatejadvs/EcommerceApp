@@ -7,6 +7,7 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = current_user.products
+    @page_title = "Products Store | Ecommerce"
   end
 
   # GET /products/1
